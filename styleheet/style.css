@@ -225,3 +225,30 @@ img{
     margin-top: 20px;
 }
 
+/* starting-section */
+
+.starting-section{
+    text-align: center;
+    background-color: #fafcff;
+    border-radius: 14px;
+    padding: 70px;
+    margin-top: 110px;
+    margin-bottom: 60px ;
+}
+
+.top-head h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.top-head p{
+    color: #000000c9;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.down-img{
+    margin-top: 20px;
+}
