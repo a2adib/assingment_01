@@ -178,6 +178,7 @@ img {
     text-align: left;
     width: 33%;
     padding: 30px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.027);
 }
 
 .customer-review {
