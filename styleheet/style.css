@@ -23,7 +23,9 @@
 
 /* Header section */
 
-.header
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
 
 .nav{
     display: flex;
@@ -34,6 +36,7 @@
 
 .nav h1{
     font-family: inter;
+    color: #4E47FF;
 }
 
 .left{
@@ -51,10 +54,42 @@
 .hero-section{
     align-content: center;
     text-align: center;
-    padding: 160px 120px;
+    padding: 120px 160px;
 }
 
 .hero-section h1{
     font-size: 65px;
-    font-weight: bold;    
+    font-weight: bold; 
+    padding: 0px 120px;
+}
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 120px 0px;
+}
+
+.action, .left{
+    display: inline;
+    align-self: center;
+}
+
+img{
+    border: none;
+    border-radius: 48px;
+    width: 100%;
+} 
+
+.action, .left h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action, .left p{
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    width: 70%;
 }
