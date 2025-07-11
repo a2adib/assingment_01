@@ -1,0 +1,60 @@
+/* fonts */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* common style */
+.width{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.btn-all{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Header section */
+
+.header
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px 0px;
+}
+
+.nav h1{
+    font-family: inter;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section{
+    align-content: center;
+    text-align: center;
+    padding: 160px 120px;
+}
+
+.hero-section h1{
+    font-size: 65px;
+    font-weight: bold;    
+}
