@@ -12,6 +12,12 @@
 }
 
 /* common style */
+
+body{
+    background-color: #f5f8ff;
+}
+
+
 .width{
     width: 1140px;
     margin: 0px auto;
@@ -141,3 +147,81 @@ img{
     color: #000000;
     opacity: 50%;
 }
+
+/* customer-review */
+.customer-review{
+    margin-top: 110px;
+    margin-bottom: 60px ;
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.card{
+    background-color: #fafcff;
+    border-radius: 14px;
+    text-align: left;
+    width: 33%;
+    padding: 30px;
+}
+
+.customer-review{
+    text-align: center;
+}
+
+.icon-star img{
+    height: 20px;
+    width: 20px;   
+}
+
+.icon-star{
+    display: flex;
+}
+
+.pp{
+    height: 40px;
+    width: 40px;
+}
+
+.heading h1{
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.heading p{
+    color: #000;
+    font-size: 24px;
+}
+
+.detail{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.detail h1{
+    color: #000000e7;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.detail p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.582);
+}
+.userdetail{
+    display: flex;
+}
+
+.card .heading{
+    margin-top: 20px;
+}
+
