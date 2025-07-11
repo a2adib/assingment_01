@@ -328,7 +328,7 @@ a{
     color: rgba(0, 0, 0, 0.582);
     padding-left:25px;
     padding: 25px;
-
+    cursor: pointer;
 }
 
 .footerfoot{
